@@ -32,8 +32,9 @@ Testing the webserver
 
 
 ## PROGRAM:
-Implementation using Python code
 
+Implementation using Python code
+```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
@@ -60,11 +61,16 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running....")
 httpd.serve_forever()
-
+```
 
 ## OUTPUT:
 
+### Server side output
 
+![Serversideoutput](./images/serveroutput.png)
+
+### Client side output
+
+![Client side output](./images/clientoutput.png)
 
 ## RESULT:
-The program is executed succesfully
