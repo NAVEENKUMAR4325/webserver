@@ -1,4 +1,4 @@
-# Developing a Simple Webserver
+# Developing a simple web server
 
 # AIM:
 
@@ -67,10 +67,11 @@ httpd.serve_forever()
 
 ### Server side output
 
-![Serversideoutput](./images/serveroutput.png)
+![Server side output](./images/serveroutput.png)
 
 ### Client side output
 
 ![Client side output](./images/clientoutput.png)
-
 ## RESULT:
+
+The program is executed succesfully
